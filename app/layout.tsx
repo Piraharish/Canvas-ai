@@ -11,7 +11,10 @@ const IBMPlex = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Canvas Ai",
+  title: {
+    default: "Canvas Ai",
+    template: "%s | Canvas Ai",
+  },
   description: "Ai-powered image generator",
 };
 
